@@ -106,7 +106,7 @@ const FormInput = () => {
           name="username"
           placeholder="Username"
           required
-          value={userInput.username}
+        //   value={userInput.username}
           onChange={handleInput}
         />
         <span className="error">{errors.username}</span>
@@ -119,7 +119,7 @@ const FormInput = () => {
           name="email"
           placeholder="Email"
           required
-          value={userInput.email}
+        //   value={userInput.email}
           onChange={handleInput}
         />
         <span className="error">{errors.email}</span>
@@ -132,7 +132,7 @@ const FormInput = () => {
           name="fullname"
           placeholder="Full name"
           required
-          value={userInput.fullname}
+        //   value={userInput.fullname}
           onChange={handleInput}
         />
         <span className="error">{errors.fullname}</span>
@@ -144,7 +144,7 @@ const FormInput = () => {
           type="date"
           name="birthdate"
           required
-          value={userInput.birthdate}
+        //   value={userInput.birthdate}
           onChange={handleInput}
         />
         <span className="error">{errors.birthdate}</span>
@@ -157,7 +157,7 @@ const FormInput = () => {
           name="password"
           placeholder="Password"
           required
-          value={userInput.password}
+        //   value={userInput.password}
           pattern="[a-zA-Z0-9!@#$%^&*]{6,16}"
           onChange={handleInput}
         />
@@ -171,7 +171,7 @@ const FormInput = () => {
           name="confirmpassword"
           placeholder="Confirm password"
           required
-          value={userInput.confirmpassword}
+        //   value={userInput.confirmpassword}
           onChange={handleInput}
         />
         <span className="error">{errors.confirmpassword}</span>
