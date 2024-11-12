@@ -1,16 +1,12 @@
 import React from 'react'
 import FormInput from '../components/FormInput'
 
-const Form = ()=> {
+const Formpage = ()=> {
   return (
     <div className='app'>
-        <form>
-           
-            <FormInput/>
-        </form>
-
+        <FormInput/>
     </div>
   )
 }
 
-export default Form
+export default Formpage
